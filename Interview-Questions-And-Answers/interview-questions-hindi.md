@@ -2155,7 +2155,7 @@ const result = numbers.map(num => num * 2)
                       .filter(num => num > 5)
                       .reduce((acc, num) => acc + num, 0);
 
-console.log(result); // Output: 40
+console.log(result); // Output: 56
 ```
 
 Iss code mein humne pehle `map()` function ka use kiya hai jo numbers array ke saare elements ko double kar deta hai. Uske baad humne `filter()` function ka use kiya hai jo un numbers ko filter karta hai jo 5 se bade hai. Final mein, `reduce()` function ka use kiya hai jo filtered numbers ka sum calculate karta hai. Sabhi operations ko chaining ke through perform kiya gaya hai.
